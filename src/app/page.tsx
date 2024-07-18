@@ -16,8 +16,6 @@ import { useAtom } from "jotai";
 import { placeAtom } from "./atom";
 import { useEffect } from "react";
 
-// https://api.openweathermap.org/data/2.5/forecast?q=pena&appid=0e96204ca003bd62d86e5e6c30871d6e&cnt=56
-
 // Type for the data (API)
 interface WeatherData {
 	city: any;
